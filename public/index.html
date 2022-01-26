@@ -32,7 +32,7 @@
       </a>
       <img src="/images/profielfoto.png" style="width:100%;" class="w3-round"><br><br>
       <h4><b>Vincent van der Ree</b></h4>
-      <p>Portofolio</p>
+      <p>Portfolio</p>
     </div>
     <div class="w3-bar-block">
       <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-light-gray"><i
@@ -57,8 +57,6 @@
 
     <!-- Header -->
     <header id="portfolio">
-      <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;"
-          class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
       <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
           class="fa fa-bars"></i></span>
       <div class="w3-container">
@@ -76,21 +74,20 @@
     </header>
 
     <!-- First Photo Grid-->
-    <div class="w3-row-padding">
-      <div class="w3-third w3-container w3-margin-bottom">
-        <img src="/images/projectsample.png" alt="Project naam" style="width:100%" class="w3-hover-opacity">
+    <div id="projectsList" class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom w3-animate-opacity"><img src="/images/projectSample.png"
+          alt="Project naam" style="width:100%" class="w3-hover-opacity">
         <div class="w3-container w3-white">
           <p><b>Projectnaam</b><span class="w3-right">Website</span></p>
           <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
             gravida diam non fringilla.</p>
         </div>
       </div>
-      <div class="w3-third w3-container w3-margin-bottom">
-        <img src="/images/projectsample.png" alt="Project naam" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-third w3-container w3-margin-bottom w3-animate-opacity" style="animation-delay: 0.5s; animation-fill-mode: both;"><img src="/images/portfolio.png"
+          alt="Project naam" style="width:100%" class="w3-hover-opacity">
         <div class="w3-container w3-white">
-          <p><b>This Website</b><span class="w3-right">Website</span></p>
-          <p>This entire website is completly made by me, using the w3.css library, and hosted through a Node.js server
-          </p>
+          <p><b>This website</b><span class="w3-right">Website</span></p>
+          <p>This entire website is completly made by me, using the w3.css library, and hosted through a Node.js server</p>
         </div>
       </div>
     </div>
@@ -176,7 +173,7 @@
         <div class="w3-row-padding">
           <div class="w3-third">
             <h3>INFO</h3>
-            <p>Website designed with w3.css using there "Portofolio" template</p>
+            <p>Website designed with w3.css using there "Portfolio" template</p>
             <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
           </div>
 
@@ -207,6 +204,24 @@
         document.getElementById("mySidebar").style.display = "none";
         document.getElementById("myOverlay").style.display = "none";
       }
+
+      var projects = [
+        {
+          "name": "Projectname",
+          "discription": "Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.",
+          "picture": "/images/projectsample.png"
+        },
+        {
+          "name": "This website",
+          "discription": "This entire website is completly made by me, using the w3.css library, and hosted through a Node.js server",
+          "picture": "/images/projectsample.png"
+        }
+      ]
+
+
+
+
+
     </script>
 
 </body>
