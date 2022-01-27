@@ -626,7 +626,7 @@ function updateTotals(){
   var totalPrice = 0;
   for(var x = 0; x < totals.length; x++){
     if(totals[x] != 0){
-      temp += "<li>Catagorie: " + NumToCat(x) + " - Totaal: " + totals[x] + " - Prijs: " + (NumToPrice[x]) +  "</li>"
+      temp += "<li>"+ totals[x] +" x " + NumToCat(x) + " - Totaalprijs: " + (NumToPrice[x]) +  "</li>"
       totalPrice += totals[x] * (NumToPrice[x]);
     }
   }
