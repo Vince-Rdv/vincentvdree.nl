@@ -603,12 +603,17 @@ function addBeer(x){
   updateBeers();
 }
 
+function removeBeer(x){
+  selectedBeers.splice(x, 1)
+  updateBeers();
+}
+
 function updateBeers(){
   var totalBeerList = document.getElementById("totalBeerList")
   totalBeerList.innerHTML = "";
   var temp = "";
   for(var x = 0; x < selectedBeers.length; x++){
-    temp += "<li>" + beers[selectedBeers[x]].Naam + "</li>"
+    temp += "<li class='w3-hover-light-gray' onclick='removeBeer(" + x + ")'>" + beers[selectedBeers[x]].Naam + "</li>"
   }
   totalBeerList.innerHTML = temp; 
   updateTotals();
