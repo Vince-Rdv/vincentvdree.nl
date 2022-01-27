@@ -598,6 +598,8 @@ var selectedBeers = [];
 
 function addBeer(x){
   selectedBeers.push(x);
+  document.getElementById("filterInput").value = "";
+  w3.filterHTML('#beerTable', '.item', "")
   updateBeers();
 }
 
