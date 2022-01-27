@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Vince-Rdv/vincentvdree.nl#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "socket.io": "^4.4.1"
   }
 }
