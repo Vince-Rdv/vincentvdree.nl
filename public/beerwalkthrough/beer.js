@@ -1,73 +1,38 @@
 var beers = [
   {
-    "Naam": "Halve Maan - Brugse Zot",
-    "Stijl": "Blond",
-    "Volume (cL)": 33,
-    "Prijs": "€ 2,50",
-    "Prijscatagorie": "A"
+    "Naam": "Aslin - Variegata",
+    "Stijl": "Imperial Butterscotch Stout",
+    "Volume (cL)": 47,
+    "Prijs": "€ 9,50",
+    "Prijscatagorie": "M"
   },
   {
-    "Naam": "Lehe - Null",
-    "Stijl": "Low Alc. IPA",
-    "Volume (cL)": 33,
-    "Prijs": "€ 2,50",
-    "Prijscatagorie": "A"
+    "Naam": "Brewing Projekt - Chomp Chomp Strawberry Cheesecake",
+    "Stijl": "Fruited Sour",
+    "Volume (cL)": 47,
+    "Prijs": "€ 7,50",
+    "Prijscatagorie": "K"
   },
   {
-    "Naam": "Oedipus - Mannenliefde",
-    "Stijl": "Saison",
-    "Volume (cL)": 33,
-    "Prijs": "€ 2,50",
-    "Prijscatagorie": "A"
+    "Naam": "Brewing Projekt - Puff Tart XL Mango Raspberry Dragonfruit",
+    "Stijl": "Fruited Sour",
+    "Volume (cL)": 47,
+    "Prijs": "€ 7,50",
+    "Prijscatagorie": "K"
   },
   {
-    "Naam": "Vandestreek - Hazy Holidays",
-    "Stijl": "NEIPA",
-    "Volume (cL)": 33,
-    "Prijs": "€ 2,50",
-    "Prijscatagorie": "A"
+    "Naam": "Casita - Imperial Pat, the Bunny",
+    "Stijl": "Douple IPA",
+    "Volume (cL)": 47,
+    "Prijs": "€ 7,50",
+    "Prijscatagorie": "K"
   },
   {
-    "Naam": "Vandestreek - Playground IPA",
-    "Stijl": "Low Alc. IPA",
-    "Volume (cL)": 33,
-    "Prijs": "€ 2,50",
-    "Prijscatagorie": "A"
-  },
-  {
-    "Naam": "Westmalle - Dubbel",
-    "Stijl": "Dubbel",
-    "Volume (cL)": 33,
-    "Prijs": "€ 2,50",
-    "Prijscatagorie": "A"
-  },
-  {
-    "Naam": "Westmalle - Extra",
-    "Stijl": "Enkel",
-    "Volume (cL)": 33,
-    "Prijs": "€ 2,50",
-    "Prijscatagorie": "A"
-  },
-  {
-    "Naam": "Kompaan - Running with Scissors",
-    "Stijl": "Lobster Saison",
-    "Volume (cL)": 33,
-    "Prijs": "€ 3,00",
-    "Prijscatagorie": "B"
-  },
-  {
-    "Naam": "Vandestreek - V-IPA",
-    "Stijl": "NEIPA",
-    "Volume (cL)": 33,
-    "Prijs": "€ 3,00",
-    "Prijscatagorie": "B"
-  },
-  {
-    "Naam": "Weihenstephaner - Vitus",
-    "Stijl": "Weizenbock",
-    "Volume (cL)": 50,
-    "Prijs": "€ 3,00",
-    "Prijscatagorie": "B"
+    "Naam": "Casita - Wild Dreams Run Free",
+    "Stijl": "Douple IPA",
+    "Volume (cL)": 47,
+    "Prijs": "€ 7,50",
+    "Prijscatagorie": "K"
   },
   {
     "Naam": "Coolhead - Tentacle Smoosh",
@@ -77,53 +42,39 @@ var beers = [
     "Prijscatagorie": "C"
   },
   {
-    "Naam": "Molen - Fraai & Fuitig",
-    "Stijl": "Sour Ale",
-    "Volume (cL)": 33,
-    "Prijs": "€ 3,50",
-    "Prijscatagorie": "C"
+    "Naam": "Coven - Far Beyond Driven",
+    "Stijl": "Fruited Sour",
+    "Volume (cL)": 50,
+    "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
   },
   {
-    "Naam": "Molen - Gloed & Glunder",
-    "Stijl": "Smoked Lager",
-    "Volume (cL)": 33,
-    "Prijs": "€ 3,50",
-    "Prijscatagorie": "C"
+    "Naam": "Coven - Tears don't fall",
+    "Stijl": "Fruited Sour",
+    "Volume (cL)": 50,
+    "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
   },
   {
-    "Naam": "Molen - Guur & Kouw",
-    "Stijl": "Scottish Ale",
-    "Volume (cL)": 33,
-    "Prijs": "€ 3,50",
-    "Prijscatagorie": "C"
+    "Naam": "Dear Bear - Fifty Fifty",
+    "Stijl": "Fruited Sour",
+    "Volume (cL)": 50,
+    "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
   },
   {
-    "Naam": "Molen - Hop & Drop",
-    "Stijl": "India Export Porter",
-    "Volume (cL)": 33,
-    "Prijs": "€ 3,50",
-    "Prijscatagorie": "C"
+    "Naam": "Espiga - County of the wild",
+    "Stijl": "Wild Ale BA",
+    "Volume (cL)": 75,
+    "Prijs": "€ 14,00",
+    "Prijscatagorie": "N"
   },
   {
-    "Naam": "Molen - Limoen & Citroen",
-    "Stijl": "Session IPA",
-    "Volume (cL)": 33,
-    "Prijs": "€ 3,50",
-    "Prijscatagorie": "C"
-  },
-  {
-    "Naam": "Molen - Vriend & Vijand",
-    "Stijl": "American Pale Ale",
-    "Volume (cL)": 33,
-    "Prijs": "€ 3,50",
-    "Prijscatagorie": "C"
-  },
-  {
-    "Naam": "Molen - Wieken & Krieken",
-    "Stijl": "Red Fruit Barleywine",
-    "Volume (cL)": 33,
-    "Prijs": "€ 3,50",
-    "Prijscatagorie": "C"
+    "Naam": "Full Circle - Good Company",
+    "Stijl": "NE TIPA",
+    "Volume (cL)": 44,
+    "Prijs": "€ 6,00",
+    "Prijscatagorie": "H"
   },
   {
     "Naam": "Funky Fluid - Czech Pils",
@@ -133,6 +84,20 @@ var beers = [
     "Prijscatagorie": "D"
   },
   {
+    "Naam": "Funky Fluid - Double Gelato Blue Velvet",
+    "Stijl": "Fruited Sour",
+    "Volume (cL)": 50,
+    "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
+  },
+  {
+    "Naam": "Funky Fluid - Double Gelato Mango Lassi",
+    "Stijl": "Fruited Sour",
+    "Volume (cL)": 50,
+    "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
+  },
+  {
     "Naam": "Funky Fluid - Hop Fun Weizen",
     "Stijl": "Weizen ",
     "Volume (cL)": 50,
@@ -140,11 +105,32 @@ var beers = [
     "Prijscatagorie": "D"
   },
   {
+    "Naam": "Funky Fluid - Triple Gelato Berry's and cream",
+    "Stijl": "Fruited Sour",
+    "Volume (cL)": 50,
+    "Prijs": "€ 6,00",
+    "Prijscatagorie": "H"
+  },
+  {
     "Naam": "Grutte Pier - Bretttûne #19",
     "Stijl": "Brett Beer",
     "Volume (cL)": 33,
     "Prijs": "€ 4,00",
     "Prijscatagorie": "D"
+  },
+  {
+    "Naam": "Gypsy Hill - Moneybags",
+    "Stijl": "NE DIPA",
+    "Volume (cL)": 44,
+    "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
+  },
+  {
+    "Naam": "Halve Maan - Brugse Zot",
+    "Stijl": "Blond",
+    "Volume (cL)": 33,
+    "Prijs": "€ 2,50",
+    "Prijscatagorie": "A"
   },
   {
     "Naam": "Hopman - American Pale Ale",
@@ -182,11 +168,165 @@ var beers = [
     "Prijscatagorie": "D"
   },
   {
+    "Naam": "Kees Barrel Project 21.10",
+    "Stijl": "Imperial Stout BA",
+    "Volume (cL)": 33,
+    "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
+  },
+  {
+    "Naam": "Kompaan - Battle Royal Round 3",
+    "Stijl": "NEDIPA",
+    "Volume (cL)": 44,
+    "Prijs": "€ 5,00",
+    "Prijscatagorie": "F"
+  },
+  {
+    "Naam": "Kompaan - Battle Royal Round 4",
+    "Stijl": "NEDIPA",
+    "Volume (cL)": 44,
+    "Prijs": "€ 5,00",
+    "Prijscatagorie": "F"
+  },
+  {
     "Naam": "Kompaan - Juicy Joker",
     "Stijl": "NEIPA",
     "Volume (cL)": 33,
     "Prijs": "€ 4,00",
     "Prijscatagorie": "D"
+  },
+  {
+    "Naam": "Kompaan - Pineapole Pal",
+    "Stijl": "Fruited Sour",
+    "Volume (cL)": 44,
+    "Prijs": "€ 5,00",
+    "Prijscatagorie": "F"
+  },
+  {
+    "Naam": "Kompaan - Running with Scissors",
+    "Stijl": "Lobster Saison",
+    "Volume (cL)": 33,
+    "Prijs": "€ 3,00",
+    "Prijscatagorie": "B"
+  },
+  {
+    "Naam": "Lambic Fabriek - Muri-elle",
+    "Stijl": "Wild Ale BA",
+    "Volume (cL)": 75,
+    "Prijs": "€ 14,00",
+    "Prijscatagorie": "N"
+  },
+  {
+    "Naam": "Lehe - Null",
+    "Stijl": "Low Alc. IPA",
+    "Volume (cL)": 33,
+    "Prijs": "€ 2,50",
+    "Prijscatagorie": "A"
+  },
+  {
+    "Naam": "Mad Scientist - Fashion and Spirituality",
+    "Stijl": "Milk Stout",
+    "Volume (cL)": 33,
+    "Prijs": "€ 5,00",
+    "Prijscatagorie": "F"
+  },
+  {
+    "Naam": "Mad Scientist - Resist Nothing",
+    "Stijl": "Sour IPA",
+    "Volume (cL)": 50,
+    "Prijs": "€ 6,00",
+    "Prijscatagorie": "H"
+  },
+  {
+    "Naam": "Maltgarden - Proton",
+    "Stijl": "Imperial Pastry Stout",
+    "Volume (cL)": 50,
+    "Prijs": "€ 7,00",
+    "Prijscatagorie": "J"
+  },
+  {
+    "Naam": "Maltgarden - The middle of silence",
+    "Stijl": "Imperial Pastry Stout",
+    "Volume (cL)": 50,
+    "Prijs": "€ 6,50",
+    "Prijscatagorie": "I"
+  },
+  {
+    "Naam": "Molen - Fraai & Fuitig",
+    "Stijl": "Sour Ale",
+    "Volume (cL)": 33,
+    "Prijs": "€ 3,50",
+    "Prijscatagorie": "C"
+  },
+  {
+    "Naam": "Molen - Gloed & Glunder",
+    "Stijl": "Smoked Lager",
+    "Volume (cL)": 33,
+    "Prijs": "€ 3,50",
+    "Prijscatagorie": "C"
+  },
+  {
+    "Naam": "Molen - Guur & Kouw",
+    "Stijl": "Scottish Ale",
+    "Volume (cL)": 33,
+    "Prijs": "€ 3,50",
+    "Prijscatagorie": "C"
+  },
+  {
+    "Naam": "Molen - Hel & Verdoemenis Kokos BA",
+    "Stijl": "Imperial Stout BA",
+    "Volume (cL)": 33,
+    "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
+  },
+  {
+    "Naam": "Molen - Hop & Drop",
+    "Stijl": "India Export Porter",
+    "Volume (cL)": 33,
+    "Prijs": "€ 3,50",
+    "Prijscatagorie": "C"
+  },
+  {
+    "Naam": "Molen - Limoen & Citroen",
+    "Stijl": "Session IPA",
+    "Volume (cL)": 33,
+    "Prijs": "€ 3,50",
+    "Prijscatagorie": "C"
+  },
+  {
+    "Naam": "Molen - Rook & Leer",
+    "Stijl": "Imperial Stout BA",
+    "Volume (cL)": 33,
+    "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
+  },
+  {
+    "Naam": "Molen - Vriend & Vijand",
+    "Stijl": "American Pale Ale",
+    "Volume (cL)": 33,
+    "Prijs": "€ 3,50",
+    "Prijscatagorie": "C"
+  },
+  {
+    "Naam": "Molen - Wieken & Krieken",
+    "Stijl": "Red Fruit Barleywine",
+    "Volume (cL)": 33,
+    "Prijs": "€ 3,50",
+    "Prijscatagorie": "C"
+  },
+  {
+    "Naam": "More - Strawberry Orange Cream Double Marbles",
+    "Stijl": "Milkshake DIPA",
+    "Volume (cL)": 47,
+    "Prijs": "€ 7,50",
+    "Prijscatagorie": "K"
+  },
+  {
+    "Naam": "Narrow Gauge - Cloud City ",
+    "Stijl": "NEIPA",
+    "Volume (cL)": 47,
+    "Prijs": "€ 8,00",
+    "Prijscatagorie": "L"
   },
   {
     "Naam": "Nook - DDH Desitka",
@@ -196,11 +336,46 @@ var beers = [
     "Prijscatagorie": "D"
   },
   {
+    "Naam": "Oedipus - Mannenliefde",
+    "Stijl": "Saison",
+    "Volume (cL)": 33,
+    "Prijs": "€ 2,50",
+    "Prijscatagorie": "A"
+  },
+  {
+    "Naam": "Oproer - Ruig Kriek 2020",
+    "Stijl": "Wild Ale BA",
+    "Volume (cL)": 33,
+    "Prijs": "€ 6,00",
+    "Prijscatagorie": "H"
+  },
+  {
+    "Naam": "Pastore - Blackcurrant Waterbeach Weisse",
+    "Stijl": "Fruited Sour",
+    "Volume (cL)": 44,
+    "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
+  },
+  {
+    "Naam": "Poolside - Fine by me",
+    "Stijl": "NE DIPA",
+    "Volume (cL)": 44,
+    "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
+  },
+  {
     "Naam": "Pumphouse - Crafty Radler",
     "Stijl": "Radler",
     "Volume (cL)": 47,
     "Prijs": "€ 4,00",
     "Prijscatagorie": "D"
+  },
+  {
+    "Naam": "Raven - Black Label #5",
+    "Stijl": "Fruited Sour",
+    "Volume (cL)": 75,
+    "Prijs": "€ 14,00",
+    "Prijscatagorie": "N"
   },
   {
     "Naam": "ROTT. - Rott Oase",
@@ -210,157 +385,31 @@ var beers = [
     "Prijscatagorie": "D"
   },
   {
-    "Naam": "Wilde Child - Siege of Khartoum",
-    "Stijl": "Imperial Peanut Butter Stout",
-    "Volume (cL)": 44,
-    "Prijs": "€ 4,00",
-    "Prijscatagorie": "D"
-  },
-  {
-    "Naam": "Kompaan - Battle Royal Round 3",
-    "Stijl": "NEDIPA",
-    "Volume (cL)": 44,
-    "Prijs": "€ 5,00",
-    "Prijscatagorie": "E"
-  },
-  {
-    "Naam": "Kompaan - Battle Royal Round 4",
-    "Stijl": "NEDIPA",
-    "Volume (cL)": 44,
-    "Prijs": "€ 5,00",
-    "Prijscatagorie": "E"
-  },
-  {
-    "Naam": "Kompaan - Pineapole Pal",
-    "Stijl": "Fruited Sour",
-    "Volume (cL)": 44,
-    "Prijs": "€ 5,00",
-    "Prijscatagorie": "E"
-  },
-  {
-    "Naam": "Mad Scientist - Fashion and Spirituality",
-    "Stijl": "Milk Stout",
-    "Volume (cL)": 33,
-    "Prijs": "€ 5,00",
-    "Prijscatagorie": "E"
-  },
-  {
-    "Naam": "Selfmade - Planes of Dispair",
-    "Stijl": "Imperial Stout",
-    "Volume (cL)": 33,
-    "Prijs": "€ 5,00",
-    "Prijscatagorie": "E"
-  },
-  {
-    "Naam": "Wilde Child - Plausibly Undeniable",
-    "Stijl": "NE DIPA",
-    "Volume (cL)": 44,
-    "Prijs": "€ 5,00",
-    "Prijscatagorie": "E"
-  },
-  {
-    "Naam": "Zichovec - 15 Nordstation",
-    "Stijl": "DIPA",
-    "Volume (cL)": 50,
-    "Prijs": "€ 5,00",
-    "Prijscatagorie": "E"
-  },
-  {
-    "Naam": "Coven - Far Beyond Driven",
-    "Stijl": "Fruited Sour",
-    "Volume (cL)": 50,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "Coven - Tears don't fall",
-    "Stijl": "Fruited Sour",
-    "Volume (cL)": 50,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "Dear Bear - Fifty Fifty",
-    "Stijl": "Fruited Sour",
-    "Volume (cL)": 50,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "Funky Fluid - Double Gelato Blue Velvet",
-    "Stijl": "Fruited Sour",
-    "Volume (cL)": 50,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "Funky Fluid - Double Gelato Mango Lassi",
-    "Stijl": "Fruited Sour",
-    "Volume (cL)": 50,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "Gypsy Hill - Moneybags",
-    "Stijl": "NE DIPA",
-    "Volume (cL)": 44,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "Kees Barrel Project 21.10",
-    "Stijl": "Imperial Stout BA",
-    "Volume (cL)": 33,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "Molen - Hel & Verdoemenis Kokos BA",
-    "Stijl": "Imperial Stout BA",
-    "Volume (cL)": 33,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "Molen - Rook & Leer",
-    "Stijl": "Imperial Stout BA",
-    "Volume (cL)": 33,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "Pastore - Blackcurrant Waterbeach Weisse",
-    "Stijl": "Fruited Sour",
-    "Volume (cL)": 44,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "Poolside - Fine by me",
-    "Stijl": "NE DIPA",
-    "Volume (cL)": 44,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
     "Naam": "Selfmade - Cave Robber",
     "Stijl": "Imperial Pumpkin Stout",
     "Volume (cL)": 50,
     "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
+    "Prijscatagorie": "G"
   },
   {
     "Naam": "Selfmade - Ceremony",
     "Stijl": "NE DIPA",
     "Volume (cL)": 50,
     "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
+    "Prijscatagorie": "G"
   },
   {
     "Naam": "Selfmade - Heavy Armor",
     "Stijl": "DIPA",
     "Volume (cL)": 50,
     "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
+  },
+  {
+    "Naam": "Selfmade - Planes of Dispair",
+    "Stijl": "Imperial Stout",
+    "Volume (cL)": 33,
+    "Prijs": "€ 5,00",
     "Prijscatagorie": "F"
   },
   {
@@ -368,97 +417,139 @@ var beers = [
     "Stijl": "Fruited Sour",
     "Volume (cL)": 50,
     "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
+    "Prijscatagorie": "G"
   },
   {
     "Naam": "Selfmade - The Welder Mask",
     "Stijl": "DIPA",
     "Volume (cL)": 50,
     "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
+    "Prijscatagorie": "G"
   },
   {
     "Naam": "Selfmade - Tropical Slasher",
     "Stijl": "Fruited Sour",
     "Volume (cL)": 50,
     "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
+    "Prijscatagorie": "G"
   },
   {
     "Naam": "Selfmade - Warlock Ruins",
     "Stijl": "Fruited Sour",
     "Volume (cL)": 50,
     "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
+    "Prijscatagorie": "G"
   },
   {
     "Naam": "Selfmade - Wasteland Radio",
     "Stijl": "NE DIPA",
     "Volume (cL)": 50,
     "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
+    "Prijscatagorie": "G"
   },
   {
     "Naam": "Selfmade - Wax Wing",
     "Stijl": "Fruited Sour",
     "Volume (cL)": 50,
     "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
+    "Prijscatagorie": "G"
   },
   {
     "Naam": "Stamm - Heatline",
     "Stijl": "Fruited Sour",
     "Volume (cL)": 50,
     "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "XP Brew - G.See Beam",
-    "Stijl": "NE DIPA",
-    "Volume (cL)": 50,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "XP Brew - G.See Party",
-    "Stijl": "NE DIPA",
-    "Volume (cL)": 50,
-    "Prijs": "€ 5,50",
-    "Prijscatagorie": "F"
-  },
-  {
-    "Naam": "Full Circle - Good Company",
-    "Stijl": "NE TIPA",
-    "Volume (cL)": 44,
-    "Prijs": "€ 6,00",
     "Prijscatagorie": "G"
   },
   {
-    "Naam": "Funky Fluid - Triple Gelato Berry's and cream",
-    "Stijl": "Fruited Sour",
-    "Volume (cL)": 50,
-    "Prijs": "€ 6,00",
-    "Prijscatagorie": "G"
+    "Naam": "Toppling Goliath - Digital Dawn",
+    "Stijl": "Double IPA",
+    "Volume (cL)": 47,
+    "Prijs": "€ 8,00",
+    "Prijscatagorie": "L"
   },
   {
-    "Naam": "Mad Scientist - Resist Nothing",
-    "Stijl": "Sour IPA",
-    "Volume (cL)": 50,
-    "Prijs": "€ 6,00",
-    "Prijscatagorie": "G"
-  },
-  {
-    "Naam": "Oproer - Ruig Kriek 2020",
-    "Stijl": "Wild Ale BA",
-    "Volume (cL)": 33,
-    "Prijs": "€ 6,00",
-    "Prijscatagorie": "G"
+    "Naam": "Toppling Goliath - King Sue",
+    "Stijl": "DIPA",
+    "Volume (cL)": 47,
+    "Prijs": "€ 7,50",
+    "Prijscatagorie": "K"
   },
   {
     "Naam": "Vandestreek - Barrel Wave",
     "Stijl": "Imperial Stout BA",
     "Volume (cL)": 33,
     "Prijs": "€ 6,00",
+    "Prijscatagorie": "H"
+  },
+  {
+    "Naam": "Vandestreek - Hazy Holidays",
+    "Stijl": "NEIPA",
+    "Volume (cL)": 33,
+    "Prijs": "€ 2,50",
+    "Prijscatagorie": "A"
+  },
+  {
+    "Naam": "Vandestreek - Playground IPA",
+    "Stijl": "Low Alc. IPA",
+    "Volume (cL)": 33,
+    "Prijs": "€ 2,50",
+    "Prijscatagorie": "A"
+  },
+  {
+    "Naam": "Vandestreek - V-IPA",
+    "Stijl": "NEIPA",
+    "Volume (cL)": 33,
+    "Prijs": "€ 3,00",
+    "Prijscatagorie": "B"
+  },
+  {
+    "Naam": "Weihenstephaner - Vitus",
+    "Stijl": "Weizenbock",
+    "Volume (cL)": 50,
+    "Prijs": "€ 3,00",
+    "Prijscatagorie": "B"
+  },
+  {
+    "Naam": "Westmalle - Dubbel",
+    "Stijl": "Dubbel",
+    "Volume (cL)": 33,
+    "Prijs": "€ 2,50",
+    "Prijscatagorie": "A"
+  },
+  {
+    "Naam": "Westmalle - Extra",
+    "Stijl": "Enkel",
+    "Volume (cL)": 33,
+    "Prijs": "€ 2,50",
+    "Prijscatagorie": "A"
+  },
+  {
+    "Naam": "Wilde Child - Plausibly Undeniable",
+    "Stijl": "NE DIPA",
+    "Volume (cL)": 44,
+    "Prijs": "€ 5,00",
+    "Prijscatagorie": "F"
+  },
+  {
+    "Naam": "Wilde Child - Siege of Khartoum",
+    "Stijl": "Imperial Peanut Butter Stout",
+    "Volume (cL)": 44,
+    "Prijs": "€ 4,00",
+    "Prijscatagorie": "D"
+  },
+  {
+    "Naam": "XP Brew - G.See Beam",
+    "Stijl": "NE DIPA",
+    "Volume (cL)": 50,
+    "Prijs": "€ 5,50",
+    "Prijscatagorie": "G"
+  },
+  {
+    "Naam": "XP Brew - G.See Party",
+    "Stijl": "NE DIPA",
+    "Volume (cL)": 50,
+    "Prijs": "€ 5,50",
     "Prijscatagorie": "G"
   },
   {
@@ -466,119 +557,28 @@ var beers = [
     "Stijl": "Imperial Stout BA",
     "Volume (cL)": 25,
     "Prijs": "€ 6,00",
-    "Prijscatagorie": "G"
+    "Prijscatagorie": "H"
   },
   {
     "Naam": "XP-Brew Envoy of Doom BA Bowmore",
     "Stijl": "Imperial Stout BA",
     "Volume (cL)": 25,
     "Prijs": "€ 6,00",
-    "Prijscatagorie": "G"
+    "Prijscatagorie": "H"
   },
   {
     "Naam": "XP-Brew Envoy of Doom BA Rum",
     "Stijl": "Imperial Stout BA",
     "Volume (cL)": 25,
     "Prijs": "€ 6,00",
-    "Prijscatagorie": "G"
-  },
-  {
-    "Naam": "Maltgarden - The middle of silence",
-    "Stijl": "Imperial Pastry Stout",
-    "Volume (cL)": 50,
-    "Prijs": "€ 6,50",
     "Prijscatagorie": "H"
   },
   {
-    "Naam": "Maltgarden - Proton",
-    "Stijl": "Imperial Pastry Stout",
-    "Volume (cL)": 50,
-    "Prijs": "€ 7,00",
-    "Prijscatagorie": "I"
-  },
-  {
-    "Naam": "Brewing Projekt - Chomp Chomp Strawberry Cheesecake",
-    "Stijl": "Fruited Sour",
-    "Volume (cL)": 47,
-    "Prijs": "€ 7,50",
-    "Prijscatagorie": "J"
-  },
-  {
-    "Naam": "Brewing Projekt - Puff Tart XL Mango Raspberry Dragonfruit",
-    "Stijl": "Fruited Sour",
-    "Volume (cL)": 47,
-    "Prijs": "€ 7,50",
-    "Prijscatagorie": "J"
-  },
-  {
-    "Naam": "Casita - Imperial Pat, the Bunny",
-    "Stijl": "Douple IPA",
-    "Volume (cL)": 47,
-    "Prijs": "€ 7,50",
-    "Prijscatagorie": "J"
-  },
-  {
-    "Naam": "Casita - Wild Dreams Run Free",
-    "Stijl": "Douple IPA",
-    "Volume (cL)": 47,
-    "Prijs": "€ 7,50",
-    "Prijscatagorie": "J"
-  },
-  {
-    "Naam": "More - Strawberry Orange Cream Double Marbles",
-    "Stijl": "Milkshake DIPA",
-    "Volume (cL)": 47,
-    "Prijs": "€ 7,50",
-    "Prijscatagorie": "J"
-  },
-  {
-    "Naam": "Toppling Goliath - King Sue",
+    "Naam": "Zichovec - 15 Nordstation",
     "Stijl": "DIPA",
-    "Volume (cL)": 47,
-    "Prijs": "€ 7,50",
-    "Prijscatagorie": "J"
-  },
-  {
-    "Naam": "Narrow Gauge - Cloud City ",
-    "Stijl": "NEIPA",
-    "Volume (cL)": 47,
-    "Prijs": "€ 8,00",
-    "Prijscatagorie": "K"
-  },
-  {
-    "Naam": "Toppling Goliath - Digital Dawn",
-    "Stijl": "Double IPA",
-    "Volume (cL)": 47,
-    "Prijs": "€ 8,00",
-    "Prijscatagorie": "K"
-  },
-  {
-    "Naam": "Aslin - Variegata",
-    "Stijl": "Imperial Butterscotch Stout",
-    "Volume (cL)": 47,
-    "Prijs": "€ 9,50",
-    "Prijscatagorie": "L"
-  },
-  {
-    "Naam": "Espiga - County of the wild",
-    "Stijl": "Wild Ale BA",
-    "Volume (cL)": 75,
-    "Prijs": "€ 14,00",
-    "Prijscatagorie": "M"
-  },
-  {
-    "Naam": "Lambic Fabriek - Muri-elle",
-    "Stijl": "Wild Ale BA",
-    "Volume (cL)": 75,
-    "Prijs": "€ 14,00",
-    "Prijscatagorie": "M"
-  },
-  {
-    "Naam": "Raven - Black Label #5",
-    "Stijl": "Fruited Sour",
-    "Volume (cL)": 75,
-    "Prijs": "€ 14,00",
-    "Prijscatagorie": "M"
+    "Volume (cL)": 50,
+    "Prijs": "€ 5,00",
+    "Prijscatagorie": "F"
   }
  ]
 
