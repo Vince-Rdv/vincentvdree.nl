@@ -87,7 +87,6 @@ a.top-bar-item:hover {
 
 
 
-
 /* Jumbo box CSS */
 
 .content {
@@ -110,11 +109,16 @@ a.top-bar-item:hover {
     border: 4px solid #288DBC;
     background: white;
     color: #288DBC;
-    padding: 4px;
+    padding: 0px;
     margin: 4px;
     transition: 0.5s;
     align-items: flex-end;
+    animation: fadeIn 0.5s;
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 .event-card:hover {
     background: #288DBC;
@@ -130,10 +134,14 @@ a.top-bar-item:hover {
 .event-card>h1 {
     font-family: cocogoose;
     text-transform: uppercase;
+    margin-left:8px;
+    padding-top:4px;
 }
 
 .event-card>p {
     font-family: 'Roboto', sans-serif;
+    margin-left:8px;
+    margin-bottom:8px;
 
 }
 

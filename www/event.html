@@ -20,24 +20,27 @@
     <!-- Top bar with image logo -->
     <div class="top-bar">
         <img class="top-bar-item" src="/SoWhatLogoBlauw.svg" />
-        <a class="top-bar-item" href="/index.html">Info</a>
-        <a class="top-bar-item" href="#">Agenda</a>
-        <a class="top-bar-item" href="#">Join Us!</a>
-        <a class="top-bar-item" href="#">Contact</a>
+        <a class="top-bar-item" href="/">Agenda</a>
+        <a class="top-bar-item" href="/info">Info</a>
+        <a class="top-bar-item" href="/joinus">Join Us!</a>
+        <a class="top-bar-item selected" href="/contact">Contact</a>
 
         <div class="spacer"></div>
 
-        <a class="top-bar-item" href="#">Login</a>
-        <a class="top-bar-item" href="#">Backstage</a>
+        <a class="top-bar-item" href="https://so-what.stager.nl/web/tickets">Login</a>
+        <a class="top-bar-item" href="https://so-what.stager.nl/login">Backstage</a>
 
         <i onclick="navigationBarSwitch()" class="top-bar-item fa-solid fa-bars"></i>
     </div>
 
     <div id="navigationBar" class="top-bar-small-menu">
-        <a class="menu-item" href="#">Agenda</a>
-        <a class="menu-item" href="#">Info</a>
-        <a class="menu-item" href="#">Join Us!</a>
-        <a class="menu-item" href="#">Contact</a>
+        <a class="menu-item" href="/">Agenda</a>
+        <a class="menu-item" href="/info">Info</a>
+        <a class="menu-item" href="/joinus">Join Us!</a>
+        <a class="menu-item" href="/contact">Contact</a>
+        <hr>
+        <a class="menu-item" href="https://so-what.stager.nl/web/tickets">Login</a>
+        <a class="menu-item" href="https://so-what.stager.nl/login">Backstage</a>
     </div>
 
     <div class="content">
@@ -45,18 +48,27 @@
         <div class="info-box">
             <div class="info-box-header">
                 <h1><vtag eventpage_title></h1>
+                <h2><vtag eventpage_subtitle></h2>
             </div>
             <div class="info-box-content">
                 <div class="row">
                     <div class="half">
-                        <img src="/EventImages/<vtag eventpage_image>.jpg"/>
+                        <img src="/EventImages/<vtag eventpage_image>.jpg" />
                     </div>
                     <div class="half container">
                         <br>
-                        <h2>WANNEER:<br><vtag eventpage_date></h2><br>
-                        <h2>DEUREN OPEN:<br><vtag eventpage_door></h2><br>
-                        <h2>START:<br><vtag eventpage_start></h2><br>
-                        <h2>EIND:<br><vtag eventpage_end></h2><br>
+                        <h4>WANNEER:<br>
+                            <vtag eventpage_date>
+                        </h4><br>
+                        <h4>DEUREN OPEN:<br>
+                            <vtag eventpage_door>
+                        </h4><br>
+                        <h4>START:<br>
+                            <vtag eventpage_start>
+                        </h4><br>
+                        <h4>EIND:<br>
+                            <vtag eventpage_end>
+                        </h4><br>
                     </div>
                 </div>
             </div>
@@ -67,13 +79,14 @@
                 <div class="row">
                     <div class="half container">
                         <br>
-                        <h2>INFO</h2><br>
-                        <p><vtag eventpage_discription></vtag></p>
+                        <h3>INFO</h3>
+                        <p><vtag eventpage_discription></p>
                     </div>
                     <div class="half container">
                         <br>
-                        <h2>TICKETS</h2><br>
-                        <iframe width="100%" height="540px" src="https://so-what.stager.nl/web/tickets/111136845"></iframe>
+                        <h3>TICKETS</h3>
+                        <iframe width="100%" height="540px"
+                            src="https://so-what.stager.nl/web/tickets/111136845"></iframe>
                     </div>
                 </div>
             </div>

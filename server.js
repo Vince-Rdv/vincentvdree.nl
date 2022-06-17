@@ -4,13 +4,24 @@ console.clear();
 const fs = require('fs');
 
 // Setup express
-const express = require('express')
-const app = express()
-const port = 3000
+const express = require('express');
+const app = express();
+const http = require('http');
+const server = http.createServer(app);
+
+// Setup Socket.io
+const { Server } = require("socket.io");
+const io = new Server(server);
+const port = process.env.PORT || 3000;
 
 // Setup connection to MongoDB Database
 const MongoClient = require('mongodb').MongoClient;
 const url = "mongodb://37.97.188.94:27017/";
+
+// Setup Email
+const nodemailer = require('nodemailer');
+
+var renderedFrontPage = "";
 
 var dbo;
 MongoClient.connect(url, function (err, db) {
@@ -19,62 +30,88 @@ MongoClient.connect(url, function (err, db) {
 });
 
 // On page request
-app.get('*', (req, res) => {
-
-
-    if (req.url == '/' || req.url == "/index" || req.url == "/index.html") {
-        // Get required database data
+app.get('/', function (req, res) { // Front page
+    // Get required database data
+    if (renderedFrontPage.length == 0) {
         dbo.collection("events").find({}).toArray(function (err, result) {
             // Send generated HTML file through generateHTML()
             res.send(generateHTML("index.html", result));
-            console.log("/index.html");
-        });
-    } else if (req.url.indexOf("/events/") > -1) {
-        // Get required database data
-        var eventID = req.url.slice(8);
-        dbo.collection("events").find({ StagerID: eventID }).toArray(function (err, result) {
-            res.send(generateHTML("event.html", result));
-            console.log("/events/" + eventID);
         });
     } else {
-        // See if URL is in directURL Array
-        var inDirectURL = false;
-        for (var x = 0; x < directURLS.length; x++) {
-            if ("/" + directURLS[x].url == req.url) {
-                res.send("<script>window.location.href = '/events/" + directURLS[x].id + "'</script>");
-                inDirectURL = true;
-                break;
-            }
-        }
-
-        if (!inDirectURL) {
-            //See if file exists as static file
-            fs.access(__dirname + "/www/public/" + req.url, fs.F_OK, (err) => {
-                if (err) {
-                    // If not, send 404
-                    res.sendFile(__dirname + "/www/404.html");
-                    console.log("404: " + req.url);
-                    return
-                }
-
-                res.sendFile(__dirname + '/www/public/' + req.url);
-            });
-
-        }
+        res.send(renderedFrontPage);
     }
+});
+app.get('/events/:id', function (req, res) {
 
-
-
+    // Get required database data
+    var eventID = req.url.slice(8);
+    dbo.collection("events").find({ StagerID: eventID }).toArray(function (err, result) {
+        res.send(generateHTML("event.html", result));
+        console.log("/events/" + eventID);
+    });
 
 });
 
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
+app.get("/info", function (req, res) {
+    res.sendFile(__dirname + "/www/info.html");
+});
+app.get("/joinus", function (req, res) {
+    res.sendFile(__dirname + "/www/joinus.html");
+});
+app.get("/contact", function (req, res) {
+    res.sendFile(__dirname + "/www/contact.html");
 })
+
+app.get("/go/:id", function(req, res){
+    var id = req.params.id;
+    console.log("param: " + id);
+    for (var x = 0; x < directURLS.length; x++) {
+        if (directURLS[x].url == id) {
+            res.redirect("/events/" + directURLS[x].id);
+            return;
+        }
+    }
+    res.redirect("/");
+});
+
+app.use(express.static(__dirname + '/www/public'));
+
+io.on('connection', (socket) => {
+
+    console.log('a user connected');
+
+    socket.on("newMessage", (data) => {
+        console.log(data);
+
+        // TODO Setup email server
+
+        fs.writeFile(__dirname + "/IncommingMessages.txt", 
+          "Van:      " + data.name + 
+        "\nEmail:    " + data.email + 
+        "\nTelefoon: " + data.telefoon + 
+        "\nCommisie: " + data.commisie + 
+        "\n\nBericht:\n" + data.bericht + 
+        "\n\n-----\n\n", { flag: 'a' }, function (err) {
+
+            if (err) throw err;
+
+        });
+
+        socket.emit("newMessageResponse", { succes: true })
+
+    });
+
+});
+
+server.listen(3000, () => {
+    console.log('listening on *:3000');
+});
 
 function generateHTML(htmlFile, result) {
 
-    var html = fs.readFileSync(__dirname + '/www/' + htmlFile, 'utf8');
+    var html = "";
+
+    html = fs.readFileSync(__dirname + '/www/' + htmlFile, 'utf8');
 
     if (html.includes("<vtag mainpage_events>")) {
 
@@ -92,17 +129,36 @@ function generateHTML(htmlFile, result) {
     }
 
     if (html.includes("<vtag eventpage_title>")) { html = html.replace("<vtag eventpage_title>", result[0].Name); }
+    if (html.includes("<vtag eventpage_subtitle>")) { html = html.replace("<vtag eventpage_subtitle>", result[0].Subtitle); }
     if (html.includes("<vtag eventpage_image>")) { html = html.replace("<vtag eventpage_image>", result[0].StagerID); }
     if (html.includes("<vtag eventpage_date>")) { html = html.replace("<vtag eventpage_date>", result[0].Date); }
     if (html.includes("<vtag eventpage_door>")) { html = html.replace("<vtag eventpage_door>", result[0].Doors_open); }
     if (html.includes("<vtag eventpage_start>")) { html = html.replace("<vtag eventpage_start>", result[0].Program_Start); }
     if (html.includes("<vtag eventpage_end>")) { html = html.replace("<vtag eventpage_end>", result[0].Program_End); }
-    if (html.includes("<vtag eventpage_discription>")) { html = html.replace("<vtag eventpage_discription>", result[0].Text.replaceAll("\n", "<br>")); }
+    var discriptionTemp = result[0].Text.replaceAll("\n", "<br>");
+    while (discriptionTemp.match(/\[(.*?)\]\((.*?)\)/)) { // Find all links
+        console.log("Found link");
+        var link = discriptionTemp.match(/\[(.*?)\]\((.*?)\)/);
+        var linkText = link[1];
+        var linkURL = link[2];
+
+        console.log(linkText);
+        console.log(linkURL);
+
+        discriptionTemp = discriptionTemp.replace("[" + linkText + "](" + linkURL + ")", "<a href='" + linkURL + "'>" + linkText + "</a>");
+    }
+    while (discriptionTemp.match("---")) {
+        discriptionTemp = discriptionTemp.replace("---", "</p><hr><p>");
+    }
+    if (html.includes("<vtag eventpage_discription>")) { html = html.replace("<vtag eventpage_discription>", discriptionTemp); }
 
 
-
-
-
+    if (htmlFile == "index.html") {
+        renderedFrontPage = html;
+        setTimeout(function () {
+            renderedFrontPage = "";
+        }, 1000 * 60 * 15)
+    }
     return html;
 }
 
@@ -124,7 +180,7 @@ function updateDirectUrl() {
 
 setTimeout(function () {
     updateDirectUrl()
-}, 3000);
+}, 500);
 
 
 

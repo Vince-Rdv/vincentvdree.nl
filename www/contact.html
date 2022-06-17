@@ -11,8 +11,9 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/defaultInfo.css">
     <script src="https://kit.fontawesome.com/865f0d38ab.js" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         <img class="top-bar-item" src="/SoWhatLogoBlauw.svg" />
         <a class="top-bar-item" href="/">Agenda</a>
         <a class="top-bar-item" href="/info">Info</a>
-        <a class="top-bar-item" href="/joinus">Join Us!</a>
+        <a class="top-bar-item selected" href="/joinus">Join Us!</a>
         <a class="top-bar-item" href="/contact">Contact</a>
 
         <div class="spacer"></div>
@@ -44,13 +45,77 @@
     </div>
 
     <div class="content">
-        <div class="event-card-row">
-            <vtag mainpage_events>
+
+        <div class="normalBlock">
+            <div class="blue">
+                <h1>Contact</h1>
+            </div>
+            <div class="white">
+
+
+                <label for="name">Naam</label>
+                <input type="text" id="name" name="name" placeholder="Uw naam">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Uw email adres">
+
+                <label for="telefoon">Telefoonnummer</label>
+                <input type="text" id="telefoon" name="telefoon" placeholder="Uw telefoonnummer">
+
+                <label for="commisie">Bestemming</label>
+                <select id="commisie" name="commisie">
+                    <option value="algemeen">Algemeen</option>
+                    <option value="financieel">Financieel</option>
+                    <option value="horeca">Horeca</option>
+                    <option value="techniek">Techniek</option>
+                </select>
+
+                <label for="bericht">Subject</label>
+                <textarea id="bericht" name="bericht" placeholder="Uw bericht" style="height:200px"></textarea>
+
+                <button onclick="sendEmail()">
+                    <script>
+
+                        var socket = io();
+
+                        function sendEmail() {
+
+                            var formName = document.getElementById('name');
+                            var formEmail = document.getElementById('email');
+                            var formTelefoon = document.getElementById('telefoon');
+                            var formCommisie = document.getElementById('commisie');
+                            var formBericht = document.getElementById('bericht');
+
+                            var data = {
+                                name: formName.value,
+                                email: formEmail.value,
+                                telefoon: formTelefoon.value,
+                                commisie: formCommisie.value,
+                                bericht: formBericht.value
+                            };
+
+                            socket.emit('newMessage', data);
+
+                        }
+
+                        socket.on("newMessageResponse", function(data) {
+                            if(data.succes){
+                                alert("Uw bericht is verzonden!");
+                            }else{
+                                alert("Er is iets fout gegaan, probeer het later opnieuw.");
+                            }
+                        });
+
+                    </script>
+            </div>
         </div>
+
+
+
+
     </div>
 
     <div class="footer">
-
         <div class="footer-socials">
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -120,8 +185,6 @@
             </div>
         </div>
     </div>
-
-    <script src="/index.js"></script>
 
 </body>
 

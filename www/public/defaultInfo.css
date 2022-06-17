@@ -75,6 +75,9 @@ a.top-bar-item:hover {
 .top-bar-small-menu {
     display: none;
 }
+.selected{
+    border-bottom: 4px solid #46494a;
+}
 
 
 
@@ -98,126 +101,123 @@ a.top-bar-item:hover {
     padding-bottom: 32px;
 }
 
-.info-box {
+.wideBlock {
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.normalBlock {
     max-width: 90vw;
     width: 1200px;
     margin: 0px auto;
+    margin-bottom: 64px;
 }
 
-.info-box h1 {
-    /* margin-top:4px; */
-    font-size: 32px;
+.blue {
+    background-color: #288DBC;
+    color: #fff;
+    padding: 32px;
+    margin: 0px auto;
+}
+
+.white {
+    background-color: #fff;
+    color: #000;
+    padding: 32px;
+    margin: 0px auto;
+}
+
+.content h1 {
     font-family: cocogoose;
-    color: white;
+    font-size: 30px;
     font-weight: lighter;
-    text-transform: uppercase;
-    padding-top: 24px;
-    padding-left: 24px;
 }
 
-.info-box h2 {
-    /* margin-top:0px; */
-    font-size: 24px;
+.content h2 {
     font-family: cocogoose;
-    color: white;
+    font-size: 25px;
     font-weight: lighter;
-    text-transform: uppercase;
-    padding-left: 24px;
-    padding-bottom: 24px;
+    margin-bottom: 15px;
 }
 
-.info-box h3 {
-    font-size: 24px;
-    font-family: cocogoose;
-    color: #288DBC;
-    font-weight: lighter;
-    text-transform: uppercase;
-    margin-left: 16px;
-    margin-bottom: 8px;
-}
-
-.info-box h4 {
-    font-size: 1.4vw;
-    font-family: cocogoose;
-    color: #288DBC;
-    font-weight: lighter;
-    text-transform: uppercase;
-    margin-left: 16px;
-}
-
-.info-box p {
+.content p {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.quote {
+    margin-left: 32px;
+    font-style: italic;
+}
+
+.content ol {
+    margin-top: 8px;
+}
+
+.content li {
     font-family: 'Roboto', sans-serif;
-    color: black;
+    font-size: 16px;
+    line-height: 20px;
 }
 
-.info-box-header {
-    background: #288DBC;
-}
-
-.info-box-content {
-    background: white;
-}
-
-.row {
-    display: flex;
-}
-
-.row>.half {
-    width: 50%;
-}
-
-.row>.half>img {
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
     width: 100%;
-    margin-bottom: -4px;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-.half.container {}
-
-.half.container>h2 {
-    color: #288DBC;
-    font-family: cocogoose;
-    font-size: 1.3vw;
-    /* margin-left:16px; */
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.half.container>p {
-    font-family: 'Roboto', sans-serif;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 8px;
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 
-.half.container>iframe {
-    border: 0px solid white;
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 96%;
-}
 
-/* @media only screen and (max-width:1024px) {
-    .half.container>h2{
-        font-size:24px;
-    }
-} */
-@media only screen and (max-width:760px) {
-    .row {
-        flex-wrap: wrap;
-    }
 
-    .row>.half {
-        width: 100%;
-    }
 
-    .half.container>h2 {
-        font-size: 20px;
-    }
 
-    .info-box h4 {
-        font-size: 20px;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
