@@ -1,0 +1,410 @@
+------------------------------------------------------------------------------------------------------
+[2022/06/18 02:53:44:779] [server.js:59:1] [info] Project booting up
+[2022/06/18 02:53:44:780] [server.js:60:1] [server] Server started
+------------------------------------------------------------------------------------------------------
+[2022/06/18 02:53:51:919] [server.js:59:1] [info] Project booting up
+[2022/06/18 02:53:51:920] [server.js:60:1] [server] Server started
+------------------------------------------------------------------------------------------------------
+[2022/06/18 02:53:54:102] [server.js:59:1] [info] Project booting up
+[2022/06/18 02:53:54:103] [server.js:60:1] [server] Server started
+------------------------------------------------------------------------------------------------------
+[2022/06/18 02:53:55:371] [server.js:60:1] [server] Server started
+[2022/06/18 02:53:55:370] [server.js:59:1] [info] Project booting up
+------------------------------------------------------------------------------------------------------
+[2022/06/18 02:58:21:444] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 02:58:21:445] [server.js:63:1] [info] Try loading the FS
+[2022/06/18 02:58:21:445] [server.js:65:1] [info] Succesfully loaded the FS
+[2022/06/18 02:58:21:548] [server.js:73:1] [info] Succesfully loaded the FS
+[2022/06/18 02:58:21:548] [server.js:76:1] [info] Try loading Socket.io
+[2022/06/18 02:58:21:608] [server.js:80:1] [info] Succesfully loaded Socket.io
+[2022/06/18 02:58:21:608] [server.js:83:1] [info] Try loading MongoDB
+[2022/06/18 02:58:21:445] [server.js:68:1] [info] Try loading Express
+[2022/06/18 02:58:21:795] [server.js:90:5] [info] Succesfully loaded MongoDB
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:01:11:907] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:01:11:911] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:01:11:911] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:01:12:077] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:01:12:015] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:01:12:077] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:01:11:911] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:01:12:015] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:01:12:259] [server.js:90:5] [info] MongoDB Succesfully Loaded
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:01:21:679] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:01:21:681] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:01:21:680] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:01:21:786] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:01:21:785] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:01:21:681] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:01:21:846] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:01:21:845] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:01:22:005] [server.js:91:1] [info] MongoDB Succesfully Loaded
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:02:12:587] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:02:12:588] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:02:12:588] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:02:12:588] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:02:12:691] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:02:12:690] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:02:12:752] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:02:12:910] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:02:12:751] [server.js:80:1] [info] Socket.io Succesfully Loaded
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:04:42:720] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:04:42:721] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:04:42:722] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:04:42:722] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:04:42:828] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:04:42:889] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:04:42:889] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:04:42:828] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:04:43:046] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:04:43:047] [server.js:100:1] [info] Express Creating routing requests
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:04:59:504] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:04:59:506] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:04:59:506] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:04:59:506] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:04:59:675] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:04:59:612] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:04:59:676] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:04:59:612] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:04:59:862] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:04:59:862] [server.js:100:1] [info] Express Creating routing requests
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:05:28:126] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:05:28:127] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:05:28:128] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:05:28:128] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:05:28:233] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:05:28:295] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:05:28:233] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:05:28:295] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:05:28:455] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:05:28:456] [server.js:100:1] [info] Express Creating routing requests
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:06:53:994] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:06:53:995] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:06:53:996] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:06:53:995] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:06:54:113] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:06:54:180] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:06:54:180] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:06:54:112] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:06:54:347] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:06:54:348] [server.js:100:1] [info] Express Creating routing requests
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:07:15:175] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:07:15:177] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:07:15:176] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:07:15:176] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:07:15:280] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:07:15:340] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:07:15:280] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:07:15:340] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:07:15:501] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:07:15:502] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:07:15:507] [server.js:179:5] [info] Listening on port 3000
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:07:21:373] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:07:21:374] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:07:21:374] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:07:21:374] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:07:21:475] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:07:21:547] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:07:21:549] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:07:21:475] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:07:21:736] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:07:21:736] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:07:21:741] [server.js:179:5] [info] Listening on port *:3000
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:09:09:531] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:09:09:535] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:09:09:532] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:09:09:641] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:09:09:532] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:09:09:702] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:09:09:702] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:09:09:641] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:09:09:861] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:09:09:867] [server.js:179:5] [info] Listening on port *:3000
+[2022/06/18 03:09:09:862] [server.js:100:1] [info] Express Creating routing requests
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:09:22:094] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:09:22:095] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:09:22:096] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:09:22:201] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:09:22:200] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:09:22:260] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:09:22:096] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:09:22:260] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:09:22:421] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:09:22:422] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:09:22:427] [server.js:179:5] [info] Listening on port *:3000
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:09:36:500] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:09:36:501] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:09:36:501] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:09:36:606] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:09:36:501] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:09:36:665] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:09:36:606] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:09:36:666] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:09:36:830] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:09:36:830] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:09:36:835] [server.js:179:5] [info] Listening on port *:3000
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:09:43:697] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:09:43:698] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:09:43:699] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:09:43:699] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:09:43:806] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:09:43:868] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:09:43:869] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:09:43:806] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:09:44:029] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:09:44:030] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:09:44:035] [server.js:179:5] [info] Listening on port *:3000
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:10:02:387] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:10:02:389] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:10:02:389] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:10:02:547] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:10:02:388] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:10:02:489] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:10:02:548] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:10:02:489] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:10:02:712] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:10:02:718] [server.js:179:5] [info] Listening on port *:3000
+[2022/06/18 03:10:02:713] [server.js:100:1] [info] Express Creating routing requests
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:10:13:525] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:10:13:527] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:10:13:527] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:10:13:633] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:10:13:632] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:10:13:527] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:10:13:691] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:10:13:853] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:10:13:691] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:10:13:854] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:10:13:859] [server.js:179:5] [info] Listening on port *:3000
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:12:18:700] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:12:18:701] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:12:18:701] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:12:18:701] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:12:18:819] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:12:18:820] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:12:18:891] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:12:18:891] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:12:19:088] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:12:19:090] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:12:19:095] [server.js:179:5] [info] Listening on port *:3000
+[2022/06/18 03:12:20:537] [server.js:102:5] [info] Requested the front page
+[2022/06/18 03:12:22:265] [server.js:102:5] [info] Requested the front page
+[2022/06/18 03:12:23:064] [server.js:114:5] [info] Requested an event page
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:12:45:155] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:12:45:157] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:12:45:156] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:12:45:263] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:12:45:324] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:12:45:325] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:12:45:264] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:12:45:484] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:12:45:485] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:12:45:157] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:12:45:490] [server.js:180:5] [info] Listening on port *:3000
+[2022/06/18 03:12:47:331] [server.js:115:5] [info] Requested an event page
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:13:14:629] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:13:14:630] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:13:14:630] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:13:14:630] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:13:14:734] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:13:14:733] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:13:14:792] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:13:14:793] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:13:14:951] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:13:14:952] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:13:14:957] [server.js:181:5] [info] Listening on port *:3000
+[2022/06/18 03:13:17:434] [server.js:116:5] [info] Requested an event page
+[2022/06/18 03:13:18:434] [server.js:102:5] [info] Requested the front page
+[2022/06/18 03:13:18:449] [server.js:108:13] [info] Succesfully loaded events and returned the front page
+[2022/06/18 03:13:27:201] [server.js:116:5] [info] Requested an event page
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:13:44:643] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:13:44:644] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:13:44:644] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:13:44:644] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:13:44:779] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:13:44:780] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:13:44:847] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:13:44:848] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:13:45:036] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:13:45:037] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:13:45:044] [server.js:181:5] [info] Listening on port *:3000
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:13:48:378] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:13:48:380] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:13:48:380] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:13:48:380] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:13:48:509] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:13:48:510] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:13:48:586] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:13:48:585] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:13:48:770] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:13:48:770] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:13:48:777] [server.js:181:5] [info] Listening on port *:3000
+[2022/06/18 03:14:06:037] [server.js:102:5] [info] Requested the front page
+[2022/06/18 03:14:06:058] [server.js:108:13] [info] Succesfully loaded events and returned the front page
+[2022/06/18 03:14:07:521] [server.js:102:5] [info] Requested the front page
+[2022/06/18 03:14:07:524] [server.js:112:9] [info] Already have a rendered front page, returning the front page
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:16:44:547] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:16:44:546] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:16:44:548] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:16:44:650] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:16:44:712] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:16:44:650] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:16:44:713] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:16:44:548] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:16:44:879] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:16:44:879] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:16:44:885] [server.js:182:5] [info] Listening on port *:3000
+[2022/06/18 03:16:45:610] [server.js:116:5] [info] Requested an event page
+[2022/06/18 03:16:45:623] [server.js:121:9] [info] Succesfully send the undefined page
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:16:49:707] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:16:49:709] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:16:49:712] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:16:49:708] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:16:49:818] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:16:49:878] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:16:49:878] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:16:49:817] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:16:50:069] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:16:50:070] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:16:50:077] [server.js:182:5] [info] Listening on port *:3000
+[2022/06/18 03:16:51:458] [server.js:116:5] [info] Requested an event page
+[2022/06/18 03:16:51:470] [server.js:121:9] [info] Succesfully send the undefined page
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:17:18:102] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:17:18:103] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:17:18:104] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:17:18:222] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:17:18:223] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:17:18:284] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:17:18:284] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:17:18:104] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:17:18:448] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:17:18:449] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:17:18:456] [server.js:182:5] [info] Listening on port *:3000
+[2022/06/18 03:17:19:813] [server.js:116:5] [info] Requested an event page
+[2022/06/18 03:17:19:829] [server.js:121:9] [info] Succesfully send the undefined page
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:17:42:175] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:17:42:177] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:17:42:278] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:17:42:177] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:17:42:176] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:17:42:279] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:17:42:338] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:17:42:338] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:17:42:496] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:17:42:496] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:17:42:501] [server.js:182:5] [info] Listening on port *:3000
+[2022/06/18 03:17:44:315] [server.js:116:5] [info] Requested an event page
+[2022/06/18 03:17:44:329] [server.js:121:9] [info] Succesfully send the Anne Soldaat page
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:18:56:955] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:18:56:956] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:18:57:065] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:18:56:957] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:18:56:957] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:18:57:066] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:18:57:156] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:18:57:157] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:18:57:364] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:18:57:365] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:18:57:370] [server.js:181:5] [info] Listening on port *:3000
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:19:50:120] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:19:50:121] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:19:50:121] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:19:50:121] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:19:50:245] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:19:50:314] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:19:50:245] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:19:50:314] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:19:50:497] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:19:50:498] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:19:50:503] [server.js:181:5] [info] Listening on port *:3000
+[2022/06/18 03:19:51:354] [server.js:102:5] [info] Requested the front page
+[2022/06/18 03:19:51:373] [server.js:108:13] [info] Succesfully loaded events and returned the front page
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:24:33:721] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:24:33:722] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:24:33:722] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:24:33:722] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:24:33:841] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:24:33:842] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:24:33:935] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:24:33:935] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:24:34:116] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:24:34:118] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:24:34:124] [server.js:181:5] [info] Listening on port *:3000
+[2022/06/18 03:24:36:698] [server.js:116:5] [info] Requested an event page
+[2022/06/18 03:24:36:711] [server.js:121:9] [info] Succesfully send the Anne Soldaat page
+[2022/06/18 03:24:38:888] [server.js:116:5] [info] Requested an event page
+[2022/06/18 03:24:38:897] [server.js:121:9] [info] Succesfully send the Terug naar Toen page
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:33:04:472] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:33:04:480] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:33:04:473] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:33:04:580] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:33:04:473] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:33:04:581] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:33:04:644] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:33:04:644] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:33:04:803] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:33:04:804] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:33:04:809] [server.js:181:5] [info] Listening on port *:3000
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:33:18:708] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:33:18:709] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:33:18:710] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:33:18:710] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:33:18:830] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:33:18:830] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:33:18:897] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:33:18:897] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:33:19:071] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:33:19:071] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:33:19:077] [server.js:181:5] [info] Listening on port *:3000
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:33:19:752] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:33:19:753] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:33:19:754] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:33:19:754] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:33:19:866] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:33:19:866] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:33:19:933] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:33:19:933] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:33:20:112] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:33:20:113] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:33:20:118] [server.js:181:5] [info] Listening on port *:3000
+------------------------------------------------------------------------------------------------------
+[2022/06/18 03:33:22:380] [server.js:65:1] [info] FS Succesfully Loaded
+[2022/06/18 03:33:22:372] [server.js:59:1] [info] VLog Booted Up
+[2022/06/18 03:33:22:373] [server.js:63:1] [info] FS Trying to Load
+[2022/06/18 03:33:22:380] [server.js:68:1] [info] Express Trying to load
+[2022/06/18 03:33:22:485] [server.js:73:1] [info] Express Succesfully Loaded
+[2022/06/18 03:33:22:486] [server.js:76:1] [info] Socket.io Trying to load
+[2022/06/18 03:33:22:550] [server.js:80:1] [info] Socket.io Succesfully Loaded
+[2022/06/18 03:33:22:550] [server.js:83:1] [info] MongoDB Trying to load
+[2022/06/18 03:33:22:725] [server.js:93:1] [info] MongoDB Succesfully Loaded
+[2022/06/18 03:33:22:726] [server.js:100:1] [info] Express Creating routing requests
+[2022/06/18 03:33:22:732] [server.js:181:5] [info] Listening on port *:3000
